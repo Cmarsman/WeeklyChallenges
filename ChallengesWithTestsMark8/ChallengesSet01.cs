@@ -4,6 +4,7 @@ namespace ChallengesWithTestsMark8
 {
     public class ChallengesSet01
     {
+
         public bool AreTwoNumbersTheSame(int num1, int num2)
         {
             if(num1 == num2)
@@ -38,12 +39,22 @@ namespace ChallengesWithTestsMark8
 
         public string GetGreeting(string nameOfPerson)
         {
-            return "Hello, " + nameOfPerson + "What's your name?";
+            if (nameOfPerson == "")
+            {
+                return "Hello!";
+            }
+            else
+            {
+                return $"Hello, {nameOfPerson}!";
+            }
+
         }
 
+
+         
         public string GetHey()
         {
-            return "Hey!";
+            return "HEY!";
         }
     }
 }
