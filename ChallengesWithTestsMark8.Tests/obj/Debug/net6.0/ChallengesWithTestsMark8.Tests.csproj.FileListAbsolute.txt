@@ -1,3 +1,9 @@
+C:\Users\chris\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\net6.0\ChallengesWithTestsMark8.Tests.csproj.AssemblyReference.cache
+C:\Users\chris\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\net6.0\ChallengesWithTestsMark8.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chris\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\net6.0\ChallengesWithTestsMark8.Tests.AssemblyInfoInputs.cache
+C:\Users\chris\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\net6.0\ChallengesWithTestsMark8.Tests.AssemblyInfo.cs
+C:\Users\chris\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\net6.0\ChallengesWithTestsMark8.Tests.csproj.CoreCompileInputs.cache
+C:\Users\chris\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\net6.0\ChallengesWithTestsMark8.Tests.sourcelink.json
 C:\Users\chris\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\bin\Debug\net6.0\ChallengesWithTestsMark8.deps.json
 C:\Users\chris\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\bin\Debug\net6.0\ChallengesWithTestsMark8.runtimeconfig.json
 C:\Users\chris\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\bin\Debug\net6.0\ChallengesWithTestsMark8.exe
@@ -91,12 +97,6 @@ C:\Users\chris\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8.
 C:\Users\chris\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 C:\Users\chris\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\bin\Debug\net6.0\ChallengesWithTestsMark8.dll
 C:\Users\chris\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\bin\Debug\net6.0\ChallengesWithTestsMark8.pdb
-C:\Users\chris\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\net6.0\ChallengesWithTestsMark8.Tests.csproj.AssemblyReference.cache
-C:\Users\chris\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\net6.0\ChallengesWithTestsMark8.Tests.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\chris\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\net6.0\ChallengesWithTestsMark8.Tests.AssemblyInfoInputs.cache
-C:\Users\chris\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\net6.0\ChallengesWithTestsMark8.Tests.AssemblyInfo.cs
-C:\Users\chris\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\net6.0\ChallengesWithTestsMark8.Tests.csproj.CoreCompileInputs.cache
-C:\Users\chris\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\net6.0\ChallengesWithTestsMark8.Tests.sourcelink.json
 C:\Users\chris\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\net6.0\Challeng.F01045AE.Up2Date
 C:\Users\chris\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\net6.0\ChallengesWithTestsMark8.Tests.dll
 C:\Users\chris\OneDrive\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\net6.0\refint\ChallengesWithTestsMark8.Tests.dll

@@ -27,9 +27,30 @@ namespace ChallengesWithTestsMark8
             public decimal Revenue { get; set; } 
         }
 
-        public void ChangeNamesOfBusinessesWithNoRevenueTo_CLOSED(Business[] businesses)
+        public void ChangeNamesOfBusinessesWithNoRevenueTo_CLOSED(string[] names, double[] revenues)
         {
-            foreach (var business in businesses) if (business.Revenue == 0) business.Name = "CLOSED";
+            Business[] businesses = new Business[names.Length];
+            for (int i = 0; i < names.Length; i++)
+            {
+                businesses[i] = new Business()
+                {
+                    Name = names[i],
+                    Revenue = (decimal)revenues[i]
+                };
+            }
+
+            foreach (var business in businesses)
+            {
+                if (business.Revenue == 0)
+                {
+                    business.Name = "CLOSED";
+                }
+            }
+
+
+
+
+            //if (business.Revenue == 0) business.Name = "CLOSED";
         }
 
         public bool IsAscendingOrder(int[] numbers)
@@ -46,10 +67,15 @@ namespace ChallengesWithTestsMark8
 
         public int SumElementsThatFollowAnEven(int[] numbers)
         {
-            return numbers
-        .Skip(1) 
-        .Where((num, index) => numbers[index] % 2 == 0) 
-        .Sum(); 
+            int sum = 0;
+            for (int i = 1; i < numbers.Length; i++)
+            {
+                if (numbers[i - 1] % 2 == 0)
+                {
+                    sum += numbers[i];
+                }
+            }
+            return sum;
         }
 
         public string TurnWordsIntoSentence(string[] words)

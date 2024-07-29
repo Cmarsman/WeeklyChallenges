@@ -50,7 +50,7 @@ namespace ChallengesWithTestsMark8.Tests
             }
 
             // Act
-            challenger.ChangeNamesOfBusinessesWithNoRevenueTo_CLOSED(businesses);
+            challenger.ChangeNamesOfBusinessesWithNoRevenueTo_CLOSED(names, revenues);
 
             // Assert
             foreach (Business business in businesses)
