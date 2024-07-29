@@ -13,8 +13,16 @@ namespace ChallengesWithTestsMark8
 
         public bool IsSumOfOddsOdd(IEnumerable<int> numbers)
         {
+            // Check if the input is null and return false if true
+            if (numbers == null)
+            {
+                return false;
+            }
+
+            // Calculate the sum of odd numbers and determine if it is odd
             return numbers.Where(n => n % 2 != 0).Sum() % 2 != 0;
         }
+
 
         public bool PasswordContainsUpperLowerAndNumber(string password)
         {
@@ -37,12 +45,20 @@ namespace ChallengesWithTestsMark8
 
         public decimal Divide(decimal dividend, decimal divisor)
         {
+            // Check if the divisor is zero and return 0 if true
+            if (divisor == 0)
+            {
+                return 0;
+            }
+
+            // Perform the division if the divisor is not zero
             return dividend / divisor;
         }
 
+
         public int LastMinusFirst(int[] nums)
         {
-             return nums[^1] - nums[0];
+            return nums[^1] - nums[0];
         }
 
         public int[] GetOddsBelow100()
@@ -53,7 +69,7 @@ namespace ChallengesWithTestsMark8
         {
             for (int i = 0; i < words.Length; i++)
             {
-                 words[i] = words[i].ToUpper();
+                words[i] = words[i].ToUpper();
             }
         }
     }

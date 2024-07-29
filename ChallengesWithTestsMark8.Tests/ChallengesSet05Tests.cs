@@ -39,29 +39,20 @@ namespace ChallengesWithTestsMark8.Tests
         {
             // Arrange
             ChallengesSet05 challenger = new ChallengesSet05();
-            Business[] businesses = new Business[names.Length];
-            for (int i = 0; i < names.Length; i++)
-            {
-                businesses[i] = new Business()
-                {
-                    Name = names[i],
-                    TotalRevenue = revenues[i]
-                };
-            }
 
             // Act
             challenger.ChangeNamesOfBusinessesWithNoRevenueTo_CLOSED(names, revenues);
 
             // Assert
-            foreach (Business business in businesses)
+            for (int i = 0; i < revenues.Length; i++)
             {
-                if (business.TotalRevenue == 0)
+                if (revenues[i] == 0)
                 {
-                    Assert.Equal("CLOSED", business.Name);
+                    Assert.Equal("CLOSED", names[i]);
                 }
                 else
                 {
-                    Assert.NotEqual("CLOSED", business.Name);
+                    Assert.NotEqual("CLOSED", names[i]);
                 }
             }
         }

@@ -7,7 +7,7 @@ namespace ChallengesWithTestsMark8
 
         public bool AreTwoNumbersTheSame(int num1, int num2)
         {
-            if(num1 == num2)
+            if (num1 == num2)
             {
                 return true;
             }
@@ -51,7 +51,7 @@ namespace ChallengesWithTestsMark8
         }
 
 
-         
+
         public string GetHey()
         {
             return "HEY!";

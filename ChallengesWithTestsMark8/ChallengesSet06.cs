@@ -8,15 +8,29 @@ namespace ChallengesWithTestsMark8
     {
         public bool CollectionContainsWord(IEnumerable<string> words, string word, bool ignoreCase)
         {
+            // Handle null input for 'words' safely
+            if (words == null)
+            {
+                return false;
+            }
+
+            // If the search word is null, immediately return false
+            if (word == null)
+            {
+                return false;
+            }
+
+            // Depending on the ignoreCase flag, perform the appropriate comparison
             if (ignoreCase)
             {
-                return words.Any(w => string.Equals(w, word, StringComparison.OrdinalIgnoreCase));
+                return words.Any(w => w?.Equals(word, StringComparison.OrdinalIgnoreCase) == true);
             }
             else
             {
-                return words.Contains(word);
+                return words.Any(w => w == word);
             }
         }
+
 
         public bool IsPrimeNumber(int num)
         {
@@ -61,9 +75,17 @@ namespace ChallengesWithTestsMark8
             return Math.Max(maxCount, currentCount);
         }
 
-        public double[] GetEveryNthElement(List<double> elements, int n)
+        public double[] GetEveryNthElement(List<double> numbers, int n)
         {
-            return elements.Where((e, i) => (i + 1) % n == 0).ToArray();
+            // Return an empty array if the input list is null or 'n' is less than 1
+            if (numbers == null || n < 1)
+            {
+                return new double[0];
+            }
+
+            // Retrieve every nth element starting from the nth-1 index (zero-based)
+            return numbers.Where((x, index) => (index + 1) % n == 0).ToArray();
         }
+
     }
 }

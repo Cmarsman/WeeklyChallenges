@@ -41,7 +41,7 @@ namespace ChallengesWithTestsMark8
         {
             if (objs == null || objs.Length == 0)
             {
-                return false; 
+                return false;
             }
 
             int nullCount = objs.Count(x => x == null);
@@ -51,24 +51,38 @@ namespace ChallengesWithTestsMark8
 
         public double AverageEvens(int[] numbers)
         {
-            var evenNumbers = numbers.Where(n => n % 2 == 0).ToList();
-
-            if (evenNumbers.Count == 0)
+            // Check if the input array is null and return 0 if true
+            if (numbers == null)
             {
-                return 0; 
+                return 0;
             }
 
-            return evenNumbers.Average();
+            // Filter out even numbers and calculate their average
+            var evenNumbers = numbers.Where(n => n % 2 == 0).ToList();
+            if (evenNumbers.Count == 0)
+            {
+                return 0;  // Return 0 if there are no even numbers
+            }
+
+            return evenNumbers.Average();  // Return the average of the even numbers
         }
+
 
         public int Factorial(int number)
         {
             if (number < 0)
             {
-                throw new ArgumentException("Number must be non-negative");
+                throw new ArgumentOutOfRangeException(nameof(number), "Number must be non-negative");
             }
 
-            return Enumerable.Range(1, number).Aggregate(1, (acc, x) => acc * x);
+            int result = 1;
+            for (int i = 1; i <= number; i++)
+            {
+                result *= i;
+            }
+
+            return result;
         }
+
     }
 }
